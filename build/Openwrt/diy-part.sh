@@ -98,7 +98,7 @@ pushd ${HOME_PATH}/feeds > /dev/null
 
 # 修改feeds目录下插件名字
 #sed -i 's/"Argon 主题设置"/"Argon设置"/g' `grep "Argon 主题设置" -rl ./`
-#sed -i 's/"Turbo ACC 网络加速"/"Turbo ACC"/g' `grep "Turbo ACC 网络加速" -rl ./`
+sed -i 's/"Turbo ACC 网络加速"/"Turbo ACC"/g' `grep "Turbo ACC 网络加速" -rl ./`
 
 popd > /dev/null
 ##########################################删除文件###################################################
